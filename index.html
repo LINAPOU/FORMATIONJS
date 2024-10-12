@@ -65,7 +65,7 @@ console.log(salutation);
 
     
 
-//comparion entre égalité partielle et totale
+//comparaison entre égalité partielle et totale
  var nombre="5";
  //le 5 a été declaré comme chaine de caracteres
 if(nombre==5){
@@ -84,8 +84,80 @@ else {
  }
 
 
+    var day;
+   switch (new Date().getDay()) {
+    case 0:
+        day ="Dimanche";
+        break;
+
+     case 1:
+     day="lundi";
+     
+     
+    break;
+    
+       case 2:
+           day = "Mardi";
 
 
+           break;
+           
+       case 3:
+           day = "Mercredi";
+
+
+           break;
+           
+       case 4:
+           day = "Jeudi";
+
+
+           break;
+           
+       case 5:
+           day = "Vendredi";
+
+
+           break;
+           
+       case 6:
+           day = "Samedi";
+
+
+           break;
+           
+    default:
+        break;
+       
+
+   }
+
+    console.log(day,"day");
+
+
+   
+    var couleur='orange';
+    switch (couleur) {
+        case  "rouge":
+           
+            console.log("Arretez le feu est rouge")
+            break;
+        case "orange":
+            
+            console.log("Arretez le feu est orange")
+            break;
+       
+          
+        case "vert":
+            
+            console.log("Arretez le feu est vert")
+            break;
+            
+           
+            default :
+             console.log("couleur iconnue")
+             
+    }            
 
 
 
