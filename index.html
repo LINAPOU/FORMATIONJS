@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+</head>
+<body>
+
+<script>
+console.log("hello world")
+//la console sert au debugage et gestion des erreurs
+console.warn("this is a warning");
+console.error("this is an error");
+console.info("this is an information")
+// declarer une variable
+
+//alert("this is an alert")
+// declarer une variable
+var name ="lyna";
+var age = "19";
+
+console.log("mon prénom est :"+name);
+
+console.log(name.length);
+
+console.log("je m'apelle "+name+" et j'ai "+age);
+
+console.log(`je m'apelle ${name} et j'ai ${age}`);
+
+//les constantes 
+const name1="lyna";
+console.log(name1);
+
+//les conditions 
+
+const time=new Date().getHours();
+var salutation;
+//new Date().getHours() c une fonction js prédéfinit pour récuperer l'heure
+if(time<10){
+salutation="bonjour";
+}else if(time<20) {
+salutation= "bonsoir";
+}else{
+salutation= "à demain";
+
+}
+
+console.log(salutation);
+
+
+    var notejs = 20;
+    var notehtml = 5;
+    var moyenne = (notejs + notehtml) / 2;
+    var resultat; 
+    if (moyenne < 10) {
+    resultat = "vous allez refaire l'année";
+    } else if (moyenne === 10) {  
+    resultat = "passable";
+    } else {
+    resultat = "bravo vous avez eu l'année";
+    }
+
+    console.log(resultat);
+
+    
+
+//comparion entre égalité partielle et totale
+ var nombre="5";
+ //le 5 a été declaré comme chaine de caracteres
+if(nombre==5){
+    console.log("les valeurs sont égales ");
+}
+else{
+    console.log("les valeurs ne sont pas égales")
+}
+
+if (nombre === 5) {
+        console.log("les valeurs et le type sont égaux ");
+
+}
+else {
+        console.log("les valeurs et le type ne sont pas égaux")
+ }
+
+
+
+
+
+
+
+
+</script> 
+
+</body>
+</html>
