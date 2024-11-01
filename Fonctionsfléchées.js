@@ -13,15 +13,17 @@ console.log("laddition des deux nombres est :" +addition(1,2));
 
 
 
-//aficher bjrs fonctio flechées
-const Bjrs = () => {console.log("bjrs");};
+//afficher bjrs fonction flechées
+const Bjrs = () => {
+    console.log("bjrs");
+};
 Bjrs();
 
 
 
 //voir si le nombre est pair  avec les 2 methodes
 const nombrepair = (a) => a % 2 === 0;
-nombrepair(4);
+console.log("le nombre est pair :" + nombrepair(15));
 
 
 
